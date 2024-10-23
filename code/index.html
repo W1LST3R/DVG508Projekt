@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DVG508 Projekt</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+		<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		
+		<!--maptiler-->
+		<link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.2.2/maptiler-sdk.css" rel="stylesheet" />
+		<!--<script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>-->
+		<script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.2.2/maptiler-sdk.umd.js"></script>
+		
+		<link rel="stylesheet" href="style.css" />
+		<script src="mapLogic.js" defer></script>
+	</head>
+	<body>
+	    <div id="map"></div>
+		<h1 id="title">Kartläggning av svampar och rådjur på Gotland</h1>
+	    <div id="map-legend" class="legend">
+			<h4>Punkter</h4>
+			<div><span class="radjur"></span> Rådjur</div>
+			<div><span class="kantareller"></span> Kantareller</div>
+			<div><span class="trattisar"></span> Trattkantareller</div>
+		</div>
+	</body>
+</html>
